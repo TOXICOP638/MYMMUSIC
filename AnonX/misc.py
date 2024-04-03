@@ -64,7 +64,7 @@ def sudo():
     if sudoers:
         for x in sudoers:
             SUDOERS.add(x)
-    LOGGER(__name__).info(f" ™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍 Sudo Users Loaded Successfully.")
+    LOGGER(__name__).info(f" ™° ˹𝙎𝙊𝙉𝘼 ꭙ 𝙈𝙐𝙎𝙄𝘾˼  Sudo Users Loaded Successfully.")
 
 
 def heroku():
