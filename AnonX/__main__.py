@@ -24,7 +24,7 @@ async def init():
         and not config.STRING5
     ):
         LOGGER("AnonX").error(
-            "𝐌𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 🦋⃟ ᴠͥɪͣᴘͫ 🇴 🇽 𝐘 𝐆 𝐄 𝐍⃝⃝⃪⃕🥀🦋͜͡•─⃛͢."
+            "𝐌𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 🦋⃟ ᴠͥɪͣᴘͫ ˹𝙎𝙊𝙉𝘼 ꭙ 𝙈𝙐𝙎𝙄𝘾˼."
         )
         return
     if (
@@ -32,7 +32,7 @@ async def init():
         and not config.SPOTIFY_CLIENT_SECRET
     ):
         LOGGER("AnonX").warning(
-            "𝐌𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 🦋⃟ ᴠͥɪͣᴘͫ 🇴 🇽 𝐘 𝐆 𝐄 𝐍⃝⃝⃪⃕🥀🦋͜͡•─⃛͢."
+            "𝐌𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 🦋⃟ ᴠͥɪͣᴘͫ ˹𝙎𝙊𝙉𝘼 ꭙ 𝙈𝙐𝙎𝙄𝘾˼."
         )
     try:
         users = await get_gbanned()
@@ -47,13 +47,13 @@ async def init():
     for all_module in ALL_MODULES:
         importlib.import_module("AnonX.plugins." + all_module)
     LOGGER("AnonX.plugins").info(
-        "Necessary ™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍 Modules Imported Successfully."
+        "Necessary ™°‌ ˹𝙎𝙊𝙉𝘼 ꭙ 𝙈𝙐𝙎𝙄𝘾˼ Modules Imported Successfully."
     )
     await userbot.start()
     await Anon.start()
     try:
         await Anon.stream_call(
-            "https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4"
+            "https://graph.org/file/3106f7cd8a1f892cfc014.jpg"
         )
     except NoActiveGroupCall:
         LOGGER("AnonX").error(
