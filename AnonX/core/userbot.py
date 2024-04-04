@@ -48,8 +48,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("BWANDARLOK")
-                await self.one.join_chat("BWANDARLOK")
+                await self.one.join_chat("DOSTO_KI_M3HFIL")
+                await self.one.join_chat("DOSTO_KI_M3HFIL")
             except:
                 pass
             assistants.append(1)
@@ -75,8 +75,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("BWANDARLOK")
-                await self.two.join_chat("BWANDARLOK")
+                await self.two.join_chat("DOSTO_KI_M3HFIL")
+                await self.two.join_chat("DOSTO_KI_M3HFIL")
             except:
                 pass
             assistants.append(2)
@@ -129,8 +129,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("BWANDARLOK")
-                await self.four.join_chat("BWANDARLOK")
+                await self.four.join_chat("DOSTO_KI_M3HFIL")
+                await self.four.join_chat("DOSTO_KI_M3HFIL")
             except:
                 pass
             assistants.append(4)
@@ -156,8 +156,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("BWANDARLOK")
-                await self.five.join_chat("BWANDARLOK")
+                await self.five.join_chat("DOSTO_KI_M3HFIL")
+                await self.five.join_chat("DOSTO_KI_M3HFIL")
             except:
                 pass
             assistants.append(5)
